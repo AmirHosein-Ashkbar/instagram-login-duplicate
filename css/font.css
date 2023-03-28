@@ -1,0 +1,40 @@
+@font-face {
+  font-family: "instagram-bold";
+  src: url("../fonts/InstagramFont/InstagramSans-Bold.ttf");
+  src: url("../fonts/InstagramFont/InstagramSans-Bold.ttf");
+  src: url("../fonts/InstagramFont/InstagramSans-Bold.woff");
+  src: url("../fonts/InstagramFont/InstagramSans-Bold.woff2");
+}
+@font-face {
+  font-family: "instagram-medium";
+  src: url("../fonts/InstagramFont/InstagramSans-Medium.ttf");
+  src: url("../fonts/InstagramFont/InstagramSans-Medium.eot");
+  src: url("../fonts/InstagramFont/InstagramSans-Medium.woff");
+  src: url("../fonts/InstagramFont/InstagramSans-Medium.woff2");
+}
+
+@font-face {
+  font-family: "instagram-regular";
+  src: url("../fonts/InstagramFont/InstagramSans-Regular.ttf");
+  src: url("../fonts/InstagramFont/InstagramSans-Regular.ttf");
+  src: url("../fonts/InstagramFont/InstagramSans-Regular.woff");
+  src: url("../fonts/InstagramFont/InstagramSans-Regular.woff2");
+}
+
+@font-face {
+  font-family: "instagram-light";
+  src: url("../fonts/InstagramFont/InstagramSans-Light.ttf");
+  src: url("../fonts/InstagramFont/InstagramSans-Light.eot");
+  src: url("../fonts/InstagramFont/InstagramSans-Light.woff");
+  src: url("../fonts/InstagramFont/InstagramSans-Light.woff2");
+}
+
+@font-face {
+  font-family: Roboto;
+  src: url("../fonts/Roboto/Roboto-Regular.ttf");
+}
+
+@font-face {
+  font-family: SegoeUI;
+  src: url(../fonts/SegoeUI/Segoe\ UI.woff);
+}

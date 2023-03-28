@@ -1,0 +1,179 @@
+@import url("../css/font.css");
+
+* {
+  margin: 0;
+}
+
+body {
+  background-color: #fafafa;
+}
+
+.main {
+  margin-top: 30px;
+  text-align: center;
+}
+a {
+  text-decoration: none;
+}
+
+.picture {
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 80px;
+  width: 30%;
+  max-width: 350px;
+  min-width: 300px;
+}
+
+.form-container {
+  display: inline-block;
+  width: 35%;
+  max-width: 350px;
+  min-width: 300px;
+}
+/* .form-container:after {
+  content: "";
+  display: table;
+  clear: both;
+} */
+
+.login-sec {
+  text-align: center;
+  margin-top: 35px;
+  margin-right: 250px;
+  width: 100%;
+  background-color: #ffffff;
+  border: 0.5px solid #dbdbdb;
+}
+
+.login-sec img {
+  width: 100%;
+  height: 70px;
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+
+input {
+  font-family: "Segoe UI", Arial, Helvetica, sans-serif;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 75%;
+  height: 38px;
+  margin-top: 10px;
+  background-color: #fafafa;
+  border: 0.5px solid #dbdbdb;
+  border-radius: 1px;
+}
+
+.btn {
+  width: 75%;
+  height: 30px;
+  text-align: center;
+  margin-top: 20px;
+  font-family: "Segoe UI", Arial, Helvetica, sans-serif;
+  background-color: #0095f6;
+  color: #ffffff;
+  border-radius: 2px;
+  border: 0;
+  cursor: pointer;
+}
+
+.login-sec a {
+  display: inline-block;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  color: rgb(0, 55, 107);
+  font-family: "instagram-regular";
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: 400;
+}
+
+.sign-up {
+  text-align: center;
+  width: 100%;
+  margin-top: 10px;
+  border: 0.5px solid #dbdbdb;
+  padding: 20px 0;
+  background-color: #ffffff;
+}
+
+p {
+  font-family: "instagram-regular";
+  color: #262626;
+}
+
+.sign-up a {
+  font-family: "instagram-medium";
+  color: #0095f6;
+}
+.get-app {
+  text-align: center;
+  width: 100%;
+}
+.get-app p {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.get-app img {
+  width: 45%;
+  height: 40px;
+  margin-top: 20px;
+  margin-bottom: 70px;
+  cursor: pointer;
+}
+
+.footer {
+  clear: both;
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 100px;
+  padding: 0 50px;
+}
+.footer > * {
+  font-family: "Segoe UI", Arial, Helvetica, sans-serif;
+}
+.footer li {
+  display: inline-block;
+}
+
+.footer li :hover {
+  text-decoration: underline;
+  color: #262626;
+  transition: color 0.2s ease-in-out;
+}
+
+.footer li a {
+  color: rgb(142, 142, 142);
+  padding: 0 10px;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+}
+
+.footer li select {
+  border: 0;
+  color: rgb(142, 142, 142);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+}
+.footer li select option {
+  border: 0;
+  color: #262626;
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 400;
+}
+.footer ul {
+  margin-bottom: 30px;
+}
+
+@media only screen and (max-width: 750px) {
+  .picture {
+    display: none;
+  }
+}
